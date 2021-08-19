@@ -5,6 +5,10 @@
   "module": "./build/es6/index.js",
   "main": "./build/commonjs/index.js",
   "typings": "./build/commonjs/index.d.ts",
+  "engines": {
+   "node": "16.x",
+   "npm": "7.x"
+  },
   "scripts": {
     "rollup-min": "rollup -c rollup.config.js --environment minify:true",
     "rollup": "rollup -c rollup.config.js",
